@@ -28,7 +28,7 @@ This project will be used the following organization:
 
 ## Authors
 
-- [Goïta Cheick](https://www.github.com/keglostephane)
+- [Goïta Cheick](https://www.github.com/Chesterkxng)
 
 
 
