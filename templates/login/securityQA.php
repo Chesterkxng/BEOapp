@@ -17,6 +17,7 @@
 
 </head>
 <?php
+
 use Application\Lib\Database\DatabaseConnection;
 use Application\Model\Login\LoginRepository;
 
@@ -34,12 +35,21 @@ if (isset($_SESSION['USERNAME']) && isset($_SESSION['NEW_PASSWORD'])) {
 
     <div class="container-fluid login-wrapper">
         <div class="login-box">
-            <h1 class="text-center mb-5"><i class="fa fa-university text-primary"></i> CABapp</h1>
+            <h1 class="text-center mb-5"><i class="fa fa-book text-primary"></i> CABapp</h1>
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-12 login-box-info" style="opacity: 1;">
-                    <h3 class="mb-4">WELCOME CABapp</h3>
-                    <p class="mb-4">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+                    <h3 class="mb-4">WELCOME BEOapp</h3>
+                    <p class="mb-4">This project aims to facilitate the work of the instruction and training department of the Air Force General Staff by implementing the following functionalities: </br>
+
+                        <strong>Standardization of work procedures</br>
+                            - Dashboard</br>
+                            - Task allocation system between office members</br>
+                            - Correspondence management</br>
+                            - Activities management</br>
+                            - Training management</br>
+                            - Missions management
+                        </strong>
+                    </p>
 
                 </div>
                 <div class="col-md-6 col-sm-6 col-12 login-box-form p-4">
@@ -50,24 +60,21 @@ if (isset($_SESSION['USERNAME']) && isset($_SESSION['NEW_PASSWORD'])) {
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
                             </div>
-                            <input type="text" class="form-control mt-0" placeholder="Username" autocomplete="off"
-                                id="Username" name="Username" value="<?= $loginInfos->username ?>" readonly>
+                            <input type="text" class="form-control mt-0" placeholder="Username" autocomplete="off" id="Username" name="Username" value="<?= $loginInfos->username ?>" readonly>
                         </div>
 
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
                             </div>
-                            <input type="text" class="form-control mt-0" placeholder="Password" name="security_question"
-                                value="<?= $loginInfos->security_question ?>" readonly>
+                            <input type="text" class="form-control mt-0" placeholder="Password" name="security_question" value="<?= $loginInfos->security_question ?>" readonly>
                         </div>
 
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
                             </div>
-                            <input type="text" class="form-control mt-0" placeholder="security answer" name="security_answer"
-                                required>
+                            <input type="text" class="form-control mt-0" placeholder="security answer" name="security_answer" required>
                         </div>
 
                         <div class="form-group">
@@ -75,10 +82,10 @@ if (isset($_SESSION['USERNAME']) && isset($_SESSION['NEW_PASSWORD'])) {
                         </div>
                     </form>
                     <form action="index.php?action=signInPage" class="signin-form">
-						<div class="form-group">
-							<button type="submit" class="form-control btn btn-theme btn-block p-2 mb-1">Sign in</button>
-						</div>
-					</form>
+                        <div class="form-group">
+                            <button type="submit" class="form-control btn btn-theme btn-block p-2 mb-1">Sign in</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

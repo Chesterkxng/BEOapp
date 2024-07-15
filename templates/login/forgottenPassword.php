@@ -23,12 +23,21 @@
 
 	<div class="container-fluid login-wrapper">
 		<div class="login-box">
-			<h1 class="text-center mb-5"><i class="fa fa-university text-primary"></i> CABapp</h1>
+			<h1 class="text-center mb-5"><i class="fa fa-book text-primary"></i> CABapp</h1>
 			<div class="row">
 				<div class="col-md-6 col-sm-6 col-12 login-box-info" style="opacity: 1;">
-					<h3 class="mb-4">WELCOME CABapp</h3>
-					<p class="mb-4">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-						richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+					<h3 class="mb-4">WELCOME BEOapp</h3>
+					<p class="mb-4">This project aims to facilitate the work of the instruction and training department of the Air Force General Staff by implementing the following functionalities: </br>
+
+						<strong>Standardization of work procedures</br>
+							- Dashboard</br>
+							- Task allocation system between office members</br>
+							- Correspondence management</br>
+							- Activities management</br>
+							- Training management</br>
+							- Missions management
+						</strong>
+					</p>
 
 				</div>
 				<div class="col-md-6 col-sm-6 col-12 login-box-form p-4">
@@ -39,24 +48,21 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
 							</div>
-							<input type="text" class="form-control mt-0" placeholder="Username" autocomplete="off"
-								id="Username" name="Username" required>
+							<input type="text" class="form-control mt-0" placeholder="Username" autocomplete="off" id="Username" name="Username" required>
 						</div>
 
 						<div class="input-group mb-3">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
 							</div>
-							<input type="password" id="Password" name="Password" class="form-control mt-0"
-								placeholder="Insert your new Password" required>
+							<input type="password" id="Password" name="Password" class="form-control mt-0" placeholder="Insert your new Password" required>
 						</div>
 
 						<div class="input-group mb-3">
 							<div class="input-group-prepend">
 								<span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
 							</div>
-							<input type="password" id="Password2" name="Password2" class="form-control mt-0"
-								placeholder="Confirm your new Password" required>
+							<input type="password" id="Password2" name="Password2" class="form-control mt-0" placeholder="Confirm your new Password" required>
 						</div>
 
 						<div class="form-group">
